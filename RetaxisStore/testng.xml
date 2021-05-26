@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="SellerCreation_Products_Ordering_Fullfill_Return.SellerRegistrationStep2"/>
+      <class name="SellerCreation_Products_Ordering_Fullfill_Return.AddSingleListing"/>
+      <class name="SellerCreation_Products_Ordering_Fullfill_Return.BuyerRegistration_OrderPlacing"/>
+      <class name="SellerCreation_Products_Ordering_Fullfill_Return.BaseClass"/>
+      <class name="SellerCreation_Products_Ordering_Fullfill_Return.AddingDiscounts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
